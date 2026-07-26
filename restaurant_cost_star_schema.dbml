@@ -1,0 +1,199 @@
+// =========================================================
+// Restaurant Cost Data Dimensional Model
+// Star schemas for: Sales, Purchasing, Inventory Valuation,
+// and Cost of Goods Sold (COGS) Estimation
+// =========================================================
+
+// ---------------------------------------------------------
+// CONFORMED DIMENSION TABLES
+// ---------------------------------------------------------
+
+Table dim_date {
+  date_key int [pk]
+  full_date date
+  day_of_week varchar
+  day_of_month int
+  month int
+  month_name varchar
+  quarter int
+  year int
+  is_weekend boolean
+  is_holiday boolean
+
+  Note: 'Conformed dimension — shared across all fact tables'
+}
+
+Table dim_time_of_day {
+  time_key int [pk]
+  hour int
+  minute int
+
+  Note: 'Used by Sales and Purchasing'
+}
+
+Table dim_vendor {
+  vendor_key int [pk]
+  vendor_id varchar [note: 'natural/business key']
+  vendor_name varchar
+  contact_info varchar
+  effective_date date
+  expiration_date date
+  is_current boolean
+
+  Note: 'SCD Type 2 recommended — vendor terms/pricing change over time'
+}
+
+Table dim_product_category {
+  product_category_key int [pk]
+  category_name varchar
+  sub_category_name varchar
+
+  Note: 'Conformed — used by Purchasing, Inventory valuation, COGS'
+}
+
+Table dim_product {
+  product_key int [pk]
+  product_id varchar [note: 'natural/business key, e.g. SKU']
+  product_name varchar
+  unit_of_measure varchar
+  product_category_key int [ref: > dim_product_category.product_category_key]
+  storage_type varchar // perishable / dry / frozen
+
+  Note: 'Conformed — the raw ingredient/inventory item dimension'
+}
+
+Table dim_employee {
+  employee_key int [pk]
+  employee_id varchar [note: 'natural/business key']
+  employee_name varchar
+  role varchar
+  hire_date date
+  status varchar // active / terminated
+  effective_date date
+  expiration_date date
+  is_current boolean
+
+  Note: 'SCD Type 2 recommended — role/wage changes over time'
+}
+
+Table dim_menu_item {
+  menu_item_key int [pk]
+  menu_item_id varchar [note: 'natural/business key, e.g. POS code']
+  menu_item_name varchar
+  category varchar
+  subcategory varchar
+  current_price decimal
+  is_active boolean
+  effective_date date
+  expiration_date date
+  is_current boolean
+
+  Note: 'SCD Type 2 recommended — menu price changes over time'
+}
+
+Table dim_order_channel {
+  channel_key int [pk]
+  channel_name varchar // dine-in, takeout, delivery app, catering
+  channel_type varchar
+
+  Note: 'Used only by Sales'
+}
+
+Table dim_store_location {
+  store_key int [pk]
+  store_id varchar [note: 'natural/business key']
+  store_name varchar
+  address varchar
+
+  Note: 'Conformed — used by all four fact tables'
+}
+
+// ---------------------------------------------------------
+// FACT TABLE: SALES
+// Grain: one row per menu item per order ticket
+// ---------------------------------------------------------
+
+Table fact_sales {
+  sales_key int [pk]
+  order_ticket_number varchar [note: 'degenerate dimension']
+  date_key int [ref: > dim_date.date_key]
+  time_key int [ref: > dim_time_of_day.time_key]
+  employee_key int [ref: > dim_employee.employee_key]
+  menu_item_key int [ref: > dim_menu_item.menu_item_key]
+  channel_key int [ref: > dim_order_channel.channel_key]
+  store_key int [ref: > dim_store_location.store_key]
+
+  quantity_sold decimal [note: 'additive']
+  unit_price decimal [note: 'non-additive']
+  extended_price decimal [note: 'additive']
+  discount_amount decimal [note: 'additive']
+  net_sales_amount decimal [note: 'additive']
+
+  Note: 'Business process: Sales'
+}
+
+// ---------------------------------------------------------
+// FACT TABLE: PURCHASING
+// Grain: one row per line item per purchase order to a vendor
+// ---------------------------------------------------------
+
+Table fact_purchasing {
+  purchasing_key int [pk]
+  purchase_order_number varchar [note: 'degenerate dimension']
+  date_key int [ref: > dim_date.date_key]
+  time_key int [ref: > dim_time_of_day.time_key]
+  vendor_key int [ref: > dim_vendor.vendor_key]
+  product_key int [ref: > dim_product.product_key]
+  product_category_key int [ref: > dim_product_category.product_category_key]
+  employee_key int [ref: > dim_employee.employee_key]
+  store_key int [ref: > dim_store_location.store_key]
+
+  quantity_ordered decimal [note: 'additive']
+  unit_price decimal [note: 'non-additive']
+  extended_price decimal [note: 'additive']
+  discount_amount decimal [note: 'additive']
+  net_purchase_amount decimal [note: 'additive']
+
+  Note: 'Business process: Purchasing'
+}
+
+// ---------------------------------------------------------
+// FACT TABLE: INVENTORY VALUATION
+// Grain: one row per product per monthly inventory valuation
+// ---------------------------------------------------------
+
+Table fact_inventory_valuation {
+  inventory_valuation_key int [pk]
+  date_key int [ref: > dim_date.date_key]
+  product_key int [ref: > dim_product.product_key]
+  product_category_key int [ref: > dim_product_category.product_category_key]
+  employee_key int [ref: > dim_employee.employee_key]
+  store_key int [ref: > dim_store_location.store_key]
+
+  item_amount decimal [note: 'semi-additive — snapshot quantity on hand']
+  item_unit_value decimal [note: 'non-additive']
+  inventory_value decimal [note: 'semi-additive — snapshot extended value']
+
+  Note: 'Business process: Inventory valuation (periodic snapshot fact table)'
+}
+
+// ---------------------------------------------------------
+// FACT TABLE: COST OF GOODS SOLD (COGS) ESTIMATION
+// Grain: one row per COGS estimate per product per monthly valuation
+// ---------------------------------------------------------
+
+Table fact_cogs_estimation {
+  cogs_key int [pk]
+  date_key int [ref: > dim_date.date_key]
+  product_key int [ref: > dim_product.product_key]
+  product_category_key int [ref: > dim_product_category.product_category_key]
+  employee_key int [ref: > dim_employee.employee_key]
+  store_key int [ref: > dim_store_location.store_key]
+
+  beginning_inventory decimal [note: 'semi-additive — snapshot at period start']
+  purchases decimal [note: 'additive — period flow, aggregated from fact_purchasing']
+  ending_inventory decimal [note: 'semi-additive — snapshot at period end']
+  cogs decimal [note: 'additive — period flow: beginning_inventory + purchases - ending_inventory']
+
+  Note: 'Business process: Cost of goods sold estimation'
+}
