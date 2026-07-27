@@ -1,0 +1,211 @@
+Category,Subcategory,Primary Key,Item Name,Unit of Measure,Wholesale Price,Primary Vendor,Secondary Vendor,Buy Method,Description
+Non-Alcoholic Beverage,Soda,NAB-001,Coca-Cola Syrup BIB,5 gal bag-in-box,67.79,Sysco,Republic National Distributing,Text Message,Post-mix cola syrup concentrate
+Non-Alcoholic Beverage,Soda,NAB-002,Diet Coke Syrup BIB,5 gal bag-in-box,59.9,Performance Foodservice,Republic National Distributing,Vendor App,Post-mix diet cola syrup concentrate
+Non-Alcoholic Beverage,Soda,NAB-003,Sprite Syrup BIB,5 gal bag-in-box,68.53,US Beverage Supply,Reinhart FoodService,Vendor App,Post-mix lemon-lime syrup concentrate
+Non-Alcoholic Beverage,Soda,NAB-004,Ginger Ale Syrup BIB,5 gal bag-in-box,66.81,Sysco,US Beverage Supply,Vendor App,Post-mix ginger ale syrup concentrate
+Non-Alcoholic Beverage,Bottled Water,NAB-005,Still Water 16.9oz,case of 24,6.87,Reinhart FoodService,Southern Wine & Spirits,Vendor App,Single-serve bottled still water
+Non-Alcoholic Beverage,Bottled Water,NAB-006,Sparkling Water 12oz,case of 24,17.37,Republic National Distributing,Breakthru Beverage,Website,Single-serve sparkling mineral water
+Non-Alcoholic Beverage,Juice,NAB-007,Orange Juice Concentrate,gallon,11.72,Ben E. Keith,Shamrock Foods,Website,100% orange juice concentrate for fountain use
+Non-Alcoholic Beverage,Juice,NAB-008,Cranberry Juice Cocktail,gallon,9.11,Fresh Point,Sysco,Vendor App,Sweetened cranberry juice cocktail
+Non-Alcoholic Beverage,Juice,NAB-009,Pineapple Juice,46 oz can,4.4,Chef's Warehouse,Restaurant Depot,Vendor App,Canned pineapple juice for cocktails and mocktails
+Non-Alcoholic Beverage,Juice,NAB-010,Lemon Juice (bottled),32 oz bottle,4.65,Cheney Brothers,Chef's Warehouse,Vendor App,Shelf-stable reconstituted lemon juice
+Non-Alcoholic Beverage,Juice,NAB-011,Lime Juice (bottled),32 oz bottle,4.28,US Foods,Chef's Warehouse,Text Message,Shelf-stable reconstituted lime juice
+Non-Alcoholic Beverage,Coffee,NAB-012,"Espresso Beans, Dark Roast",5 lb bag,42.85,Cheney Brothers,Sysco,Website,Whole bean dark roast espresso blend
+Non-Alcoholic Beverage,Coffee,NAB-013,"Drip Coffee, Medium Roast",2 lb bag,16.76,US Foods,Gordon Food Service,Vendor App,Ground medium roast coffee for brewers
+Non-Alcoholic Beverage,Coffee,NAB-014,"Decaf Coffee, Medium Roast",2 lb bag,18.31,Fresh Point,Breakthru Beverage,Website,Ground decaffeinated medium roast coffee
+Non-Alcoholic Beverage,Tea,NAB-015,Black Tea Bags,box of 100,15.31,Chef's Warehouse,Southern Wine & Spirits,Vendor App,Individually wrapped black tea bags
+Non-Alcoholic Beverage,Tea,NAB-016,Green Tea Bags,box of 100,15.23,Sysco,Breakthru Beverage,Vendor App,Individually wrapped green tea bags
+Non-Alcoholic Beverage,Tea,NAB-017,Herbal Chamomile Tea Bags,box of 100,16.64,US Foods,Fresh Point,Vendor App,Individually wrapped caffeine-free herbal tea
+Non-Alcoholic Beverage,Energy/Sports,NAB-018,Red Bull 8.4oz,case of 24,36.93,Gordon Food Service,Restaurant Depot,Text Message,"Energy drink, single-serve cans"
+Non-Alcoholic Beverage,Energy/Sports,NAB-019,Gatorade Fruit Punch,case of 24,21.81,Chef's Warehouse,Performance Foodservice,Text Message,"Sports drink, single-serve bottles"
+Non-Alcoholic Beverage,Milk/Dairy Bev,NAB-020,Whole Milk,half gallon,2.71,Breakthru Beverage,Restaurant Depot,Website,Fresh whole milk for beverage service
+Non-Alcoholic Beverage,Milk/Dairy Bev,NAB-021,Oat Milk,32 oz carton,5.87,Breakthru Beverage,US Foods,Website,Barista-formulated oat milk
+Non-Alcoholic Beverage,Milk/Dairy Bev,NAB-022,"Almond Milk, Unsweetened",32 oz carton,4.27,Reinhart FoodService,Republic National Distributing,Vendor App,Unsweetened almond milk beverage
+Non-Alcoholic Beverage,Soda,NAB-023,Root Beer Syrup BIB,5 gal bag-in-box,58.27,Gordon Food Service,Restaurant Depot,Website,Post-mix root beer syrup concentrate
+Non-Alcoholic Beverage,Soda,NAB-024,Club Soda Canister,5 gal canister,16.13,Ben E. Keith,Breakthru Beverage,Text Message,Carbonated water canister for soda gun
+Non-Alcoholic Beverage,Juice,NAB-025,Grapefruit Juice,46 oz can,5.69,Cheney Brothers,Sysco,Vendor App,Canned grapefruit juice
+Non-Alcoholic Beverage,Juice,NAB-026,Tomato Juice,46 oz can,4.64,Cheney Brothers,Chef's Warehouse,Text Message,Canned tomato juice for cocktails
+Non-Alcoholic Beverage,Bottled Water,NAB-027,Sparkling Lemon Water 12oz,case of 24,16.61,Ben E. Keith,Southern Wine & Spirits,Website,"Flavored sparkling water, lemon"
+Non-Alcoholic Beverage,Coffee,NAB-028,Cold Brew Concentrate,gallon,20.52,Breakthru Beverage,Shamrock Foods,Text Message,Ready-to-dilute cold brew concentrate
+Non-Alcoholic Beverage,Milk/Dairy Bev,NAB-029,Half & Half,quart,4.77,Breakthru Beverage,Shamrock Foods,Vendor App,Fresh half and half for coffee service
+Non-Alcoholic Beverage,Energy/Sports,NAB-030,Powerade Blue,case of 24,17.59,Ben E. Keith,Republic National Distributing,Website,"Sports drink, single-serve bottles"
+Alcoholic Beverage,Beer,ALC-001,Domestic Draft Lager Keg,1/2 barrel keg,113.86,Republic National Distributing,Southern Wine & Spirits,Text Message,Half-barrel keg of domestic lager
+Alcoholic Beverage,Beer,ALC-002,Craft IPA Keg,1/6 barrel keg,111.93,Gordon Food Service,Chef's Warehouse,Vendor App,Sixth-barrel keg of local craft IPA
+Alcoholic Beverage,Beer,ALC-003,"Mexican Lager, Bottled",case of 24,39.97,Performance Foodservice,Reinhart FoodService,Text Message,Bottled Mexican-style lager
+Alcoholic Beverage,Beer,ALC-004,"Wheat Beer, Bottled",case of 24,32.91,Sysco,Fresh Point,Vendor App,Bottled Belgian-style wheat beer
+Alcoholic Beverage,Beer,ALC-005,Light Lager Draft Keg,1/2 barrel keg,94.59,Performance Foodservice,Cheney Brothers,Website,Half-barrel keg of light domestic lager
+Alcoholic Beverage,Wine,ALC-006,"Cabernet Sauvignon, House Red",case of 12,82.13,US Foods,Gordon Food Service,Text Message,"House-pour red wine, 750ml bottles"
+Alcoholic Beverage,Wine,ALC-007,"Chardonnay, House White",case of 12,83.11,Shamrock Foods,Reinhart FoodService,Text Message,"House-pour white wine, 750ml bottles"
+Alcoholic Beverage,Wine,ALC-008,Pinot Noir,case of 12,130.96,Fresh Point,Sysco,Website,"Mid-tier red wine, 750ml bottles"
+Alcoholic Beverage,Wine,ALC-009,Sauvignon Blanc,case of 12,101.3,Breakthru Beverage,Reinhart FoodService,Text Message,"Mid-tier white wine, 750ml bottles"
+Alcoholic Beverage,Wine,ALC-010,Prosecco,case of 12,113.06,Chef's Warehouse,US Foods,Text Message,"Sparkling wine, 750ml bottles"
+Alcoholic Beverage,Wine,ALC-011,Rosé,case of 12,88.43,Shamrock Foods,Sysco,Website,"Dry rosé wine, 750ml bottles"
+Alcoholic Beverage,Spirits,ALC-012,"Vodka, Well",1.75L bottle,25.01,Restaurant Depot,Reinhart FoodService,Vendor App,Well-tier vodka for rail pours
+Alcoholic Beverage,Spirits,ALC-013,"Vodka, Premium",1L bottle,33.08,US Foods,Fresh Point,Website,Premium vodka for call/top-shelf pours
+Alcoholic Beverage,Spirits,ALC-014,"Gin, Well",1.75L bottle,21.39,Breakthru Beverage,Reinhart FoodService,Website,Well-tier London dry gin
+Alcoholic Beverage,Spirits,ALC-015,"Tequila, Blanco Premium",1L bottle,34.59,Chef's Warehouse,Cheney Brothers,Vendor App,100% agave blanco tequila
+Alcoholic Beverage,Spirits,ALC-016,"Tequila, Reposado Premium",1L bottle,45.55,Cheney Brothers,Reinhart FoodService,Vendor App,100% agave reposado tequila
+Alcoholic Beverage,Spirits,ALC-017,"Bourbon, Well",1.75L bottle,29.99,Shamrock Foods,Sysco,Vendor App,Well-tier bourbon whiskey
+Alcoholic Beverage,Spirits,ALC-018,"Bourbon, Premium",750ml bottle,43.94,US Beverage Supply,Fresh Point,Text Message,Premium small-batch bourbon
+Alcoholic Beverage,Spirits,ALC-019,"Rum, White",1.75L bottle,19.92,Ben E. Keith,Southern Wine & Spirits,Vendor App,White rum for cocktails
+Alcoholic Beverage,Spirits,ALC-020,"Rum, Spiced",1L bottle,20.69,Shamrock Foods,Fresh Point,Vendor App,Spiced rum for cocktails
+Alcoholic Beverage,Spirits,ALC-021,"Whiskey, Rye",750ml bottle,37.74,Reinhart FoodService,Cheney Brothers,Vendor App,Rye whiskey for classic cocktails
+Alcoholic Beverage,Spirits,ALC-022,"Scotch, Blended",750ml bottle,29.54,Shamrock Foods,Reinhart FoodService,Vendor App,Blended Scotch whisky
+Alcoholic Beverage,Liqueur,ALC-023,Triple Sec,1L bottle,15.59,Fresh Point,Southern Wine & Spirits,Text Message,Orange liqueur for cocktails
+Alcoholic Beverage,Liqueur,ALC-024,Coffee Liqueur,750ml bottle,25.71,US Beverage Supply,Reinhart FoodService,Website,Coffee-flavored liqueur
+Alcoholic Beverage,Liqueur,ALC-025,Amaretto,750ml bottle,21.52,Republic National Distributing,Restaurant Depot,Text Message,Almond-flavored liqueur
+Alcoholic Beverage,Beer,ALC-026,"Stout, Bottled",case of 24,43.95,Breakthru Beverage,Chef's Warehouse,Text Message,Bottled dry Irish stout
+Alcoholic Beverage,Beer,ALC-027,Non-Alcoholic Beer,case of 24,35.2,Shamrock Foods,US Foods,Vendor App,Non-alcoholic craft-style beer
+Alcoholic Beverage,Wine,ALC-028,"Champagne, Brut",case of 6,117.44,Chef's Warehouse,Sysco,Website,"French Champagne, 750ml bottles"
+Alcoholic Beverage,Spirits,ALC-029,Mezcal,750ml bottle,41.75,Southern Wine & Spirits,Ben E. Keith,Vendor App,Smoky agave spirit for specialty cocktails
+Alcoholic Beverage,Liqueur,ALC-030,"Vermouth, Dry",1L bottle,12.43,Breakthru Beverage,Sysco,Vendor App,Dry vermouth for martinis
+Dry Goods & Spices,Flour,DRY-001,All-Purpose Flour,50 lb bag,22.54,Sysco,Fresh Point,Text Message,Bleached all-purpose baking flour
+Dry Goods & Spices,Flour,DRY-002,Bread Flour,50 lb bag,24.57,Ben E. Keith,Restaurant Depot,Website,High-protein flour for bread and dough
+Dry Goods & Spices,Flour,DRY-003,Cornmeal,25 lb bag,16.91,Reinhart FoodService,Performance Foodservice,Website,Fine yellow cornmeal
+Dry Goods & Spices,Grain,DRY-004,"White Rice, Long Grain",50 lb bag,35.48,Southern Wine & Spirits,US Beverage Supply,Text Message,Long grain white rice
+Dry Goods & Spices,Grain,DRY-005,Jasmine Rice,50 lb bag,33.94,Shamrock Foods,Cheney Brothers,Text Message,Fragrant jasmine white rice
+Dry Goods & Spices,Grain,DRY-006,Quinoa,10 lb bag,29.52,US Foods,Breakthru Beverage,Text Message,Tri-color quinoa
+Dry Goods & Spices,Pasta,DRY-007,"Spaghetti, Dry",20 lb case,20.83,Gordon Food Service,Shamrock Foods,Website,Dry spaghetti pasta
+Dry Goods & Spices,Pasta,DRY-008,"Penne, Dry",20 lb case,18.43,Breakthru Beverage,US Beverage Supply,Vendor App,Dry penne pasta
+Dry Goods & Spices,Legume,DRY-009,"Black Beans, Dry",25 lb bag,22.48,Republic National Distributing,Chef's Warehouse,Vendor App,Dried black beans
+Dry Goods & Spices,Legume,DRY-010,"Pinto Beans, Dry",25 lb bag,21.99,Ben E. Keith,Reinhart FoodService,Text Message,Dried pinto beans
+Dry Goods & Spices,Sugar,DRY-011,Granulated Sugar,50 lb bag,25.12,Performance Foodservice,Restaurant Depot,Text Message,Granulated white cane sugar
+Dry Goods & Spices,Sugar,DRY-012,Brown Sugar,25 lb bag,17.5,US Beverage Supply,US Foods,Text Message,Light brown sugar
+Dry Goods & Spices,Sugar,DRY-013,Powdered Sugar,25 lb bag,20.85,Fresh Point,Reinhart FoodService,Vendor App,Confectioners' powdered sugar
+Dry Goods & Spices,Spice,DRY-014,Kosher Salt,25 lb bag,10.3,Reinhart FoodService,Fresh Point,Vendor App,Coarse kosher salt
+Dry Goods & Spices,Spice,DRY-015,"Black Pepper, Ground",1 lb bag,13.81,US Beverage Supply,Cheney Brothers,Vendor App,Finely ground black pepper
+Dry Goods & Spices,Spice,DRY-016,"Paprika, Smoked",1 lb bag,10.0,Shamrock Foods,US Beverage Supply,Vendor App,Smoked Spanish paprika
+Dry Goods & Spices,Spice,DRY-017,"Cumin, Ground",1 lb bag,13.19,US Beverage Supply,Sysco,Vendor App,Ground cumin seed
+Dry Goods & Spices,Spice,DRY-018,Chili Powder,1 lb bag,9.27,Gordon Food Service,Restaurant Depot,Text Message,Blended chili powder
+Dry Goods & Spices,Spice,DRY-019,Garlic Powder,1 lb bag,8.43,Republic National Distributing,US Beverage Supply,Website,Dehydrated garlic powder
+Dry Goods & Spices,Spice,DRY-020,Onion Powder,1 lb bag,9.31,Shamrock Foods,Performance Foodservice,Vendor App,Dehydrated onion powder
+Dry Goods & Spices,Spice,DRY-021,Cayenne Pepper,1 lb bag,9.48,Sysco,Southern Wine & Spirits,Website,Ground cayenne pepper
+Dry Goods & Spices,Spice,DRY-022,"Oregano, Dried",1 lb bag,13.25,Republic National Distributing,Chef's Warehouse,Vendor App,Dried oregano leaves
+Dry Goods & Spices,Spice,DRY-023,"Cinnamon, Ground",1 lb bag,9.3,Shamrock Foods,Reinhart FoodService,Website,Ground Ceylon cinnamon
+Dry Goods & Spices,Baking,DRY-024,Baking Powder,10 lb can,19.26,Reinhart FoodService,US Foods,Vendor App,Double-acting baking powder
+Dry Goods & Spices,Baking,DRY-025,Baking Soda,12 lb box,10.41,US Foods,Breakthru Beverage,Vendor App,Sodium bicarbonate baking soda
+Dry Goods & Spices,Baking,DRY-026,Cocoa Powder,5 lb bag,21.23,US Beverage Supply,Southern Wine & Spirits,Vendor App,Unsweetened dark cocoa powder
+Dry Goods & Spices,Breading,DRY-027,Panko Bread Crumbs,25 lb case,33.79,Sysco,Southern Wine & Spirits,Vendor App,Japanese-style panko breadcrumbs
+Dry Goods & Spices,Breading,DRY-028,Seasoned Bread Crumbs,25 lb case,30.19,Southern Wine & Spirits,US Beverage Supply,Website,Pre-seasoned breadcrumb coating
+Dry Goods & Spices,Nuts/Seeds,DRY-029,Sesame Seeds,5 lb bag,20.53,Restaurant Depot,Ben E. Keith,Website,Hulled white sesame seeds
+Dry Goods & Spices,Nuts/Seeds,DRY-030,Sliced Almonds,5 lb bag,29.73,Ben E. Keith,Restaurant Depot,Text Message,Blanched sliced almonds
+Frozen/Refrigerated Goods,Frozen Vegetable,FRZ-001,Frozen Peas,20 lb case,25.05,Breakthru Beverage,Restaurant Depot,Text Message,IQF frozen green peas
+Frozen/Refrigerated Goods,Frozen Vegetable,FRZ-002,Frozen Corn,20 lb case,24.53,Cheney Brothers,US Foods,Vendor App,IQF frozen sweet corn
+Frozen/Refrigerated Goods,Frozen Vegetable,FRZ-003,Frozen Broccoli Florets,20 lb case,29.67,Southern Wine & Spirits,US Foods,Vendor App,IQF frozen broccoli florets
+Frozen/Refrigerated Goods,Frozen Vegetable,FRZ-004,"Frozen Spinach, Chopped",20 lb case,26.3,Reinhart FoodService,Restaurant Depot,Vendor App,IQF frozen chopped spinach
+Frozen/Refrigerated Goods,Frozen Potato,FRZ-005,"French Fries, Straight Cut",30 lb case,33.47,US Beverage Supply,US Foods,Vendor App,Frozen par-fried straight-cut fries
+Frozen/Refrigerated Goods,Frozen Potato,FRZ-006,Tater Tots,30 lb case,30.96,Performance Foodservice,Shamrock Foods,Website,Frozen potato tots
+Frozen/Refrigerated Goods,Frozen Potato,FRZ-007,"Hash Browns, Shredded",20 lb case,27.63,Southern Wine & Spirits,Cheney Brothers,Website,Frozen shredded hash browns
+Frozen/Refrigerated Goods,Frozen Bread,FRZ-008,"Dinner Rolls, Par-Baked",case of 200,39.29,Breakthru Beverage,Fresh Point,Website,Frozen par-baked dinner rolls
+Frozen/Refrigerated Goods,Frozen Bread,FRZ-009,Pizza Dough Balls,case of 40,39.59,Breakthru Beverage,US Foods,Vendor App,Frozen pre-portioned pizza dough
+Frozen/Refrigerated Goods,Frozen Dessert,FRZ-010,Vanilla Ice Cream,3 gal tub,26.12,US Beverage Supply,US Foods,Website,"Vanilla ice cream, foodservice tub"
+Frozen/Refrigerated Goods,Frozen Dessert,FRZ-011,Chocolate Ice Cream,3 gal tub,28.43,Restaurant Depot,US Beverage Supply,Website,"Chocolate ice cream, foodservice tub"
+Frozen/Refrigerated Goods,Frozen Dessert,FRZ-012,"Cheesecake, Uncut",10 inch,19.69,Chef's Warehouse,Ben E. Keith,Website,Frozen uncut New York cheesecake
+Frozen/Refrigerated Goods,Frozen Fruit,FRZ-013,Frozen Mixed Berries,10 lb bag,34.34,Restaurant Depot,Reinhart FoodService,Text Message,IQF mixed berries for desserts and smoothies
+Frozen/Refrigerated Goods,Frozen Fruit,FRZ-014,Frozen Mango Chunks,10 lb bag,26.01,US Beverage Supply,Fresh Point,Vendor App,IQF mango chunks
+Frozen/Refrigerated Goods,Dairy,FRZ-015,Shredded Mozzarella,5 lb bag,18.74,Gordon Food Service,Fresh Point,Text Message,Low-moisture shredded mozzarella
+Frozen/Refrigerated Goods,Dairy,FRZ-016,Shredded Cheddar,5 lb bag,18.35,Chef's Warehouse,Cheney Brothers,Vendor App,Sharp shredded cheddar cheese
+Frozen/Refrigerated Goods,Dairy,FRZ-017,"Parmesan, Grated",5 lb bag,34.37,Restaurant Depot,Performance Foodservice,Website,Grated parmesan cheese
+Frozen/Refrigerated Goods,Dairy,FRZ-018,Cream Cheese,3 lb block,12.21,Republic National Distributing,Gordon Food Service,Website,Foodservice block cream cheese
+Frozen/Refrigerated Goods,Dairy,FRZ-019,"Butter, Unsalted",36 lb case,110.39,US Foods,Republic National Distributing,Vendor App,"Unsalted butter, 1 lb blocks"
+Frozen/Refrigerated Goods,Dairy,FRZ-020,Heavy Cream,quart,5.09,Fresh Point,Chef's Warehouse,Website,Fresh heavy whipping cream
+Frozen/Refrigerated Goods,Dairy,FRZ-021,Sour Cream,5 lb tub,15.32,Gordon Food Service,Performance Foodservice,Vendor App,Cultured sour cream
+Frozen/Refrigerated Goods,Dairy,FRZ-022,"Eggs, Large",case of 15 dz,54.17,US Beverage Supply,Cheney Brothers,Vendor App,Grade A large eggs
+Frozen/Refrigerated Goods,Frozen Protein,FRZ-023,"Frozen Shrimp, 21/25",5 lb bag,63.28,Ben E. Keith,Breakthru Beverage,Vendor App,IQF peeled deveined shrimp
+Frozen/Refrigerated Goods,Frozen Protein,FRZ-024,Frozen Chicken Wings,40 lb case,105.01,Chef's Warehouse,Cheney Brothers,Website,Frozen bone-in chicken wings
+Frozen/Refrigerated Goods,Frozen Protein,FRZ-025,Frozen Salmon Fillets,10 lb box,97.1,Gordon Food Service,Southern Wine & Spirits,Website,IQF skin-on salmon fillets
+Frozen/Refrigerated Goods,Frozen Appetizer,FRZ-026,Mozzarella Sticks,case of 240,57.63,US Beverage Supply,Ben E. Keith,Vendor App,Breaded frozen mozzarella sticks
+Frozen/Refrigerated Goods,Frozen Appetizer,FRZ-027,"Spring Rolls, Vegetable",case of 100,61.67,Cheney Brothers,Performance Foodservice,Text Message,Frozen vegetable spring rolls
+Frozen/Refrigerated Goods,Dairy,FRZ-028,"Yogurt, Plain",5 lb tub,14.15,Republic National Distributing,Chef's Warehouse,Text Message,Plain whole milk yogurt
+Frozen/Refrigerated Goods,Frozen Vegetable,FRZ-029,Frozen Diced Onions,20 lb case,26.42,Fresh Point,Republic National Distributing,Vendor App,IQF diced yellow onions
+Frozen/Refrigerated Goods,Frozen Dessert,FRZ-030,"Pie Crust, Frozen 9in",case of 24,32.67,Cheney Brothers,Republic National Distributing,Vendor App,Frozen unbaked pie shells
+Liquids/Pastes/Sauces,Oil,LIQ-001,Canola Oil,35 lb jug,42.59,Sysco,Fresh Point,Text Message,Refined canola frying/cooking oil
+Liquids/Pastes/Sauces,Oil,LIQ-002,"Olive Oil, Extra Virgin",3 L tin,26.22,Fresh Point,Shamrock Foods,Text Message,Extra virgin olive oil for finishing
+Liquids/Pastes/Sauces,Oil,LIQ-003,Vegetable Oil,35 lb jug,39.05,Cheney Brothers,Fresh Point,Vendor App,Blended vegetable frying oil
+Liquids/Pastes/Sauces,Oil,LIQ-004,Sesame Oil,1 gal jug,28.23,Breakthru Beverage,Ben E. Keith,Text Message,Toasted sesame oil for flavoring
+Liquids/Pastes/Sauces,Vinegar,LIQ-005,White Vinegar,1 gal jug,7.31,Fresh Point,US Foods,Text Message,Distilled white vinegar
+Liquids/Pastes/Sauces,Vinegar,LIQ-006,Balsamic Vinegar,1 gal jug,25.51,Reinhart FoodService,Gordon Food Service,Website,Aged balsamic vinegar
+Liquids/Pastes/Sauces,Vinegar,LIQ-007,Rice Wine Vinegar,1 gal jug,19.89,Reinhart FoodService,Chef's Warehouse,Vendor App,Seasoned rice wine vinegar
+Liquids/Pastes/Sauces,Sauce,LIQ-008,Soy Sauce,1 gal jug,12.69,Restaurant Depot,Performance Foodservice,Website,Traditional brewed soy sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-009,Hot Sauce,1 gal jug,23.7,Restaurant Depot,Sysco,Vendor App,Cayenne pepper hot sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-010,Worcestershire Sauce,1 gal jug,17.58,Chef's Warehouse,Republic National Distributing,Text Message,Fermented Worcestershire sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-011,BBQ Sauce,1 gal jug,16.62,Reinhart FoodService,US Foods,Text Message,Sweet and smoky barbecue sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-012,Buffalo Wing Sauce,1 gal jug,21.4,Ben E. Keith,Restaurant Depot,Vendor App,Buffalo-style hot wing sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-013,Teriyaki Sauce,1 gal jug,18.25,Sysco,Reinhart FoodService,Website,Sweet soy teriyaki sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-014,Ranch Dressing,1 gal jug,20.12,Republic National Distributing,US Beverage Supply,Website,Creamy ranch salad dressing
+Liquids/Pastes/Sauces,Sauce,LIQ-015,Caesar Dressing,1 gal jug,19.18,Gordon Food Service,US Foods,Website,Creamy Caesar salad dressing
+Liquids/Pastes/Sauces,Sauce,LIQ-016,"Vinaigrette, Balsamic",1 gal jug,21.52,Southern Wine & Spirits,Chef's Warehouse,Website,Balsamic vinaigrette dressing
+Liquids/Pastes/Sauces,Paste,LIQ-017,Tomato Paste,#10 can,12.24,Republic National Distributing,Restaurant Depot,Website,Double-concentrated tomato paste
+Liquids/Pastes/Sauces,Paste,LIQ-018,Garlic Paste,4 lb tub,15.86,Gordon Food Service,Chef's Warehouse,Text Message,Minced garlic in oil paste
+Liquids/Pastes/Sauces,Paste,LIQ-019,Ginger Paste,4 lb tub,18.18,Reinhart FoodService,Performance Foodservice,Vendor App,Minced ginger paste
+Liquids/Pastes/Sauces,Paste,LIQ-020,"Curry Paste, Red",14 oz can,6.26,Gordon Food Service,Breakthru Beverage,Website,Thai red curry paste
+Liquids/Pastes/Sauces,Canned Tomato,LIQ-021,Crushed Tomatoes,#10 can,10.61,Southern Wine & Spirits,US Beverage Supply,Text Message,Crushed tomatoes in puree
+Liquids/Pastes/Sauces,Canned Tomato,LIQ-022,Diced Tomatoes,#10 can,8.62,Fresh Point,Sysco,Text Message,Diced tomatoes in juice
+Liquids/Pastes/Sauces,Canned Tomato,LIQ-023,Tomato Puree,#10 can,8.15,Gordon Food Service,Cheney Brothers,Website,Smooth tomato puree
+Liquids/Pastes/Sauces,Stock/Broth,LIQ-024,"Chicken Stock, Liquid",1 gal jug,15.64,Chef's Warehouse,Shamrock Foods,Text Message,Ready-to-use liquid chicken stock
+Liquids/Pastes/Sauces,Stock/Broth,LIQ-025,"Beef Stock, Liquid",1 gal jug,16.65,Ben E. Keith,Reinhart FoodService,Text Message,Ready-to-use liquid beef stock
+Liquids/Pastes/Sauces,Stock/Broth,LIQ-026,"Vegetable Stock, Liquid",1 gal jug,16.76,Cheney Brothers,Republic National Distributing,Vendor App,Ready-to-use liquid vegetable stock
+Liquids/Pastes/Sauces,Sauce,LIQ-027,Marinara Sauce,#10 can,13.29,Restaurant Depot,Reinhart FoodService,Website,Prepared marinara pasta sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-028,Alfredo Sauce,4 lb tub,17.8,Chef's Warehouse,US Foods,Vendor App,Prepared creamy alfredo sauce
+Liquids/Pastes/Sauces,Sauce,LIQ-029,Sriracha,1 gal jug,23.38,Ben E. Keith,Cheney Brothers,Vendor App,Sweet chili garlic hot sauce
+Liquids/Pastes/Sauces,Honey/Syrup,LIQ-030,Honey,5 lb jug,19.18,Sysco,Ben E. Keith,Text Message,Pure clover honey
+Produce & Meat,Produce,PRD-001,Romaine Lettuce,case of 24 heads,34.11,Cheney Brothers,US Foods,Text Message,Fresh romaine lettuce heads
+Produce & Meat,Produce,PRD-002,Iceberg Lettuce,case of 24 heads,27.32,Breakthru Beverage,Southern Wine & Spirits,Vendor App,Fresh iceberg lettuce heads
+Produce & Meat,Produce,PRD-003,"Tomatoes, Roma",25 lb case,36.62,Gordon Food Service,Shamrock Foods,Text Message,Fresh Roma tomatoes
+Produce & Meat,Produce,PRD-004,"Onions, Yellow",50 lb bag,24.44,Breakthru Beverage,Republic National Distributing,Vendor App,Fresh yellow cooking onions
+Produce & Meat,Produce,PRD-005,"Garlic, Fresh",10 lb case,36.93,Fresh Point,Cheney Brothers,Vendor App,Fresh whole garlic bulbs
+Produce & Meat,Produce,PRD-006,"Bell Peppers, Green",25 lb case,39.34,Ben E. Keith,Performance Foodservice,Website,Fresh green bell peppers
+Produce & Meat,Produce,PRD-007,"Bell Peppers, Red",25 lb case,42.22,Sysco,Reinhart FoodService,Vendor App,Fresh red bell peppers
+Produce & Meat,Produce,PRD-008,Avocados,case of 48,66.35,US Foods,Shamrock Foods,Vendor App,Fresh Hass avocados
+Produce & Meat,Produce,PRD-009,Limes,case of 200,39.62,Breakthru Beverage,Reinhart FoodService,Website,Fresh limes
+Produce & Meat,Produce,PRD-010,Lemons,case of 165,39.15,Cheney Brothers,Shamrock Foods,Website,Fresh lemons
+Produce & Meat,Produce,PRD-011,"Potatoes, Russet",50 lb bag,32.15,US Beverage Supply,Reinhart FoodService,Text Message,Fresh russet potatoes
+Produce & Meat,Produce,PRD-012,Carrots,25 lb bag,24.64,Reinhart FoodService,Shamrock Foods,Vendor App,Fresh whole carrots
+Produce & Meat,Produce,PRD-013,Celery,case of 30,29.95,Shamrock Foods,US Beverage Supply,Text Message,Fresh celery stalks
+Produce & Meat,Produce,PRD-014,"Mushrooms, White Button",10 lb case,33.52,Fresh Point,Breakthru Beverage,Text Message,Fresh white button mushrooms
+Produce & Meat,Produce,PRD-015,Cilantro,case of 30 bunches,24.13,Reinhart FoodService,Shamrock Foods,Website,Fresh cilantro bunches
+Produce & Meat,Produce,PRD-016,Jalapeños,10 lb case,17.91,Shamrock Foods,US Foods,Website,Fresh jalapeño peppers
+Produce & Meat,Produce,PRD-017,Cucumbers,case of 24,20.29,Restaurant Depot,Chef's Warehouse,Text Message,Fresh cucumbers
+Produce & Meat,Produce,PRD-018,"Spinach, Fresh",4 lb case,19.36,US Foods,Performance Foodservice,Vendor App,Fresh baby spinach
+Produce & Meat,Produce,PRD-019,"Basil, Fresh",case of 12 bunches,23.85,Republic National Distributing,Performance Foodservice,Website,Fresh basil bunches
+Produce & Meat,Produce,PRD-020,"Ginger, Fresh",10 lb case,30.14,Gordon Food Service,US Beverage Supply,Text Message,Fresh ginger root
+Produce & Meat,Meat,PRD-021,"Ground Beef, 80/20",case,5.09,Gordon Food Service,Sysco,Vendor App,"Fresh ground beef, 80/20 blend"
+Produce & Meat,Meat,PRD-022,"Chicken Breast, Boneless",case,4.67,Gordon Food Service,Cheney Brothers,Website,Fresh boneless skinless chicken breast
+Produce & Meat,Meat,PRD-023,"Chicken Thighs, Boneless",case,3.89,Sysco,Fresh Point,Website,Fresh boneless skinless chicken thighs
+Produce & Meat,Meat,PRD-024,Pork Shoulder,case,3.76,Sysco,Chef's Warehouse,Text Message,Fresh bone-in pork shoulder
+Produce & Meat,Meat,PRD-025,"Bacon, Sliced",15 lb case,70.07,Fresh Point,US Beverage Supply,Text Message,Sliced smoked bacon
+Produce & Meat,Meat,PRD-026,NY Strip Steak,case,15.23,Republic National Distributing,Reinhart FoodService,Website,"Fresh NY strip steak, portioned"
+Produce & Meat,Meat,PRD-027,Ribeye Steak,case,19.39,Shamrock Foods,Ben E. Keith,Text Message,"Fresh ribeye steak, portioned"
+Produce & Meat,Meat,PRD-028,Ground Pork,case,3.87,Sysco,Gordon Food Service,Text Message,Fresh ground pork
+Produce & Meat,Seafood,PRD-029,"Salmon Fillet, Fresh",case,13.34,Cheney Brothers,Gordon Food Service,Website,Fresh Atlantic salmon fillet
+Produce & Meat,Seafood,PRD-030,"Shrimp, Fresh 16/20",case,11.83,Shamrock Foods,Performance Foodservice,Website,Fresh peeled deveined shrimp
+Supplies,To-Go,SUP-001,"To-Go Containers, 32oz",case of 150,36.41,US Beverage Supply,Gordon Food Service,Website,Clamshell to-go containers
+Supplies,To-Go,SUP-002,"To-Go Cups, 16oz",case of 1000,66.29,Sysco,US Foods,Website,Cold cup to-go beverage cups
+Supplies,To-Go,SUP-003,"To-Go Cup Lids, Dome",case of 1000,32.29,Fresh Point,Shamrock Foods,Vendor App,Dome lids for cold cups
+Supplies,To-Go,SUP-004,"Paper Bags, Kraft",case of 500,32.6,Gordon Food Service,Chef's Warehouse,Vendor App,Kraft paper takeout bags
+Supplies,Disposable,SUP-005,"Napkins, Dinner",case of 3000,32.55,Chef's Warehouse,Cheney Brothers,Text Message,1-ply dinner napkins
+Supplies,Disposable,SUP-006,"Straws, Wrapped",box of 500,9.67,Fresh Point,Gordon Food Service,Text Message,Individually wrapped plastic straws
+Supplies,Disposable,SUP-007,"Plastic Cutlery, Forks",box of 1000,19.01,Shamrock Foods,Sysco,Website,Disposable plastic forks
+Supplies,Disposable,SUP-008,"Plastic Cutlery, Spoons",box of 1000,17.24,Chef's Warehouse,Ben E. Keith,Website,Disposable plastic spoons
+Supplies,Disposable,SUP-009,Toothpicks,box of 1000,4.21,Breakthru Beverage,Sysco,Vendor App,Wooden toothpicks
+Supplies,Cleaning,SUP-010,"Dish Soap, Concentrate",1 gal jug,25.6,Ben E. Keith,Fresh Point,Vendor App,Commercial dish soap concentrate
+Supplies,Cleaning,SUP-011,"Degreaser, Kitchen",1 gal jug,20.97,Ben E. Keith,Performance Foodservice,Text Message,Heavy-duty kitchen degreaser
+Supplies,Cleaning,SUP-012,Sanitizer Solution,1 gal jug,18.02,Southern Wine & Spirits,Ben E. Keith,Text Message,Food-safe sanitizing solution
+Supplies,Cleaning,SUP-013,Bleach,1 gal jug,7.8,Cheney Brothers,Chef's Warehouse,Vendor App,Standard cleaning bleach
+Supplies,Cleaning,SUP-014,Glass Cleaner,1 gal jug,15.64,Republic National Distributing,US Beverage Supply,Vendor App,Streak-free glass cleaner
+Supplies,Paper Goods,SUP-015,"Paper Towels, Roll",case of 12,41.33,Performance Foodservice,Restaurant Depot,Vendor App,Commercial roll paper towels
+Supplies,Paper Goods,SUP-016,"Toilet Paper, Roll",case of 48,42.94,US Beverage Supply,Restaurant Depot,Website,Commercial roll toilet paper
+Supplies,Paper Goods,SUP-017,Butcher Paper Roll,roll,30.77,Gordon Food Service,US Beverage Supply,Website,Food-grade butcher paper roll
+Supplies,Paper Goods,SUP-018,Parchment Paper Sheets,box of 1000,40.38,Southern Wine & Spirits,Republic National Distributing,Website,Pre-cut parchment paper sheets
+Supplies,Wrap/Film,SUP-019,Plastic Wrap Roll,roll,19.94,Republic National Distributing,Cheney Brothers,Text Message,Commercial food-service plastic wrap
+Supplies,Wrap/Film,SUP-020,Aluminum Foil Roll,roll,30.5,Southern Wine & Spirits,Cheney Brothers,Vendor App,Heavy-duty aluminum foil roll
+Supplies,Gloves,SUP-021,"Disposable Gloves, Nitrile",case of 1000,56.94,Southern Wine & Spirits,Cheney Brothers,Vendor App,Powder-free nitrile gloves
+Supplies,Gloves,SUP-022,"Disposable Gloves, Vinyl",case of 1000,36.17,Gordon Food Service,Breakthru Beverage,Text Message,Powder-free vinyl gloves
+Supplies,Storage,SUP-023,Food Storage Containers,case of 100,36.83,Breakthru Beverage,Chef's Warehouse,Vendor App,Clear polycarbonate storage containers
+Supplies,Storage,SUP-024,Container Lids,case of 100,24.8,Fresh Point,Shamrock Foods,Vendor App,Lids for storage containers
+Supplies,Storage,SUP-025,"Deli Cups w/ Lids, 8oz",case of 500,37.2,Chef's Warehouse,Breakthru Beverage,Text Message,Clear deli portion cups with lids
+Supplies,Chemical,SUP-026,Hand Soap,1 gal jug,16.24,Gordon Food Service,Performance Foodservice,Website,Foodservice hand soap
+Supplies,Chemical,SUP-027,Hand Sanitizer,1 gal jug,20.17,Breakthru Beverage,Restaurant Depot,Website,Alcohol-based hand sanitizer
+Supplies,Small Wares,SUP-028,Chafing Fuel Cans,case of 24,39.7,Reinhart FoodService,Cheney Brothers,Text Message,Gel fuel cans for chafing dishes
+Supplies,Small Wares,SUP-029,Aluminum Steam Table Pans,case of 50,55.9,Fresh Point,Republic National Distributing,Website,Full-size disposable steam table pans
+Supplies,Menu/Marketing,SUP-030,"Menu Paper, Cardstock",ream of 500,20.15,Fresh Point,Ben E. Keith,Vendor App,Cardstock paper for printed menus
