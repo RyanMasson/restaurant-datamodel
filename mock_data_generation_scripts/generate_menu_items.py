@@ -1,6 +1,9 @@
 """
 generate_menu_items.py
 
+Author: Ryan Masson
+Part of: Restaurant Data Model project
+
 Generates a mock "Menu Item Master" CSV — the reference/master data
 that would back the Menu item dimension in the star schema. Mirrors
 generate_master_product_list.py in style: hand-curated realistic items

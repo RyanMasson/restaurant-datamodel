@@ -1,0 +1,84 @@
+Business Key,POS Code,Menu Item Name,Category,Subcategory,Price,Description,Is Active,Is Vegetarian,Is Vegan,Is Gluten Free,Effective Date,Expiration Date,Is Current
+APP-001,1001,Crispy Calamari,Food,Appetizer,11.81,Fried calamari with marinara and lemon aioli,True,False,False,False,2025-01-01,2025-05-09,False
+APP-001,1001,Crispy Calamari,Food,Appetizer,13.5,Fried calamari with marinara and lemon aioli,True,False,False,False,2025-05-10,,True
+APP-002,1002,Loaded Nachos,Food,Appetizer,11.27,"Tortilla chips with cheese, jalapeños, and pico de gallo",True,True,False,False,2025-01-01,2025-09-05,False
+APP-002,1002,Loaded Nachos,Food,Appetizer,12.0,"Tortilla chips with cheese, jalapeños, and pico de gallo",True,True,False,False,2025-09-06,,True
+APP-003,1003,Buffalo Wings,Food,Appetizer,14.0,Crispy chicken wings tossed in buffalo sauce,True,False,False,False,2025-01-01,,True
+APP-004,1004,Spinach Artichoke Dip,Food,Appetizer,11.5,Warm dip served with tortilla chips,False,True,True,False,2025-01-01,,True
+APP-005,1005,Mozzarella Sticks,Food,Appetizer,9.22,Breaded mozzarella with marinara sauce,True,True,False,False,2025-01-01,2025-04-19,False
+APP-005,1005,Mozzarella Sticks,Food,Appetizer,10.0,Breaded mozzarella with marinara sauce,True,True,False,False,2025-04-20,,True
+APP-006,1006,Shrimp Cocktail,Food,Appetizer,15.0,Chilled shrimp with house cocktail sauce,True,False,False,True,2025-01-01,,True
+APP-007,1007,Bruschetta,Food,Appetizer,9.5,"Toasted baguette with tomato, basil, and balsamic",True,True,True,True,2025-01-01,,True
+APP-008,1008,Pretzel Bites,Food,Appetizer,9.0,Soft pretzel bites with beer cheese dip,True,True,False,False,2025-01-01,,True
+APP-009,1009,Loaded Potato Skins,Food,Appetizer,11.0,"Potato skins with bacon, cheddar, and sour cream",True,False,False,True,2025-01-01,,True
+APP-010,1010,Ahi Tuna Tartare,Food,Appetizer,16.5,Sesame-crusted ahi tuna with avocado and soy glaze,True,False,False,False,2025-01-01,,True
+APP-011,1011,Onion Rings,Food,Appetizer,7.31,Beer-battered onion rings with chipotle ranch,True,True,True,False,2025-01-01,2025-06-05,False
+APP-011,1011,Onion Rings,Food,Appetizer,8.5,Beer-battered onion rings with chipotle ranch,True,True,True,False,2025-06-06,,True
+APP-012,1012,Caprese Skewers,Food,Appetizer,10.5,"Mozzarella, cherry tomato, and basil skewers",True,True,False,True,2025-01-01,,True
+APP-013,1013,Deviled Eggs,Food,Appetizer,8.0,Classic deviled eggs with smoked paprika,True,True,False,True,2025-01-01,,True
+APP-014,1014,Egg Rolls,Food,Appetizer,9.5,Vegetable egg rolls with sweet chili sauce,True,True,False,False,2025-01-01,,True
+APP-015,1015,Charcuterie Board,Food,Appetizer,18.0,"Selection of cured meats, cheese, and crackers",True,True,False,True,2025-01-01,,True
+ENT-001,1016,Classic Cheeseburger,Food,Entree,15.0,"Beef patty with cheddar, lettuce, tomato, and fries",True,False,False,False,2025-01-01,,True
+ENT-002,1017,Grilled Salmon,Food,Entree,24.0,Grilled salmon with seasonal vegetables,True,False,False,True,2025-01-01,,True
+ENT-003,1018,Chicken Parmesan,Food,Entree,18.08,Breaded chicken with marinara and mozzarella over pasta,True,False,False,False,2025-01-01,2025-04-27,False
+ENT-003,1018,Chicken Parmesan,Food,Entree,19.5,Breaded chicken with marinara and mozzarella over pasta,True,False,False,False,2025-04-28,,True
+ENT-004,1019,NY Strip Steak,Food,Entree,28.0,Grilled NY strip with garlic butter and mashed potatoes,True,False,False,True,2025-01-01,,True
+ENT-005,1020,Fish and Chips,Food,Entree,17.5,Beer-battered cod with fries and tartar sauce,True,False,False,False,2025-01-01,,True
+ENT-006,1021,BBQ Ribs,Food,Entree,23.0,Slow-cooked ribs with house BBQ sauce and coleslaw,True,False,False,True,2025-01-01,,True
+ENT-007,1022,Margherita Pizza,Food,Entree,16.0,"Tomato, fresh mozzarella, and basil",True,True,False,False,2025-01-01,,True
+ENT-008,1023,Pepperoni Pizza,Food,Entree,17.0,Classic pepperoni and mozzarella,True,True,False,False,2025-01-01,,True
+ENT-009,1024,Fettuccine Alfredo,Food,Entree,14.31,Fettuccine in creamy parmesan sauce,True,True,False,False,2025-01-01,2025-08-09,False
+ENT-009,1024,Fettuccine Alfredo,Food,Entree,16.5,Fettuccine in creamy parmesan sauce,True,True,False,False,2025-08-10,,True
+ENT-010,1025,Shrimp Scampi,Food,Entree,18.42,Shrimp sautéed in garlic butter over linguine,True,False,False,False,2025-01-01,2025-06-05,False
+ENT-010,1025,Shrimp Scampi,Food,Entree,21.0,Shrimp sautéed in garlic butter over linguine,True,False,False,False,2025-06-06,,True
+ENT-011,1026,Vegetable Stir Fry,Food,Entree,15.5,Seasonal vegetables in a soy-ginger sauce over rice,True,True,True,True,2025-01-01,,True
+ENT-012,1027,Chicken Caesar Salad,Food,Entree,14.5,"Grilled chicken, romaine, parmesan, and Caesar dressing",True,False,False,True,2025-01-01,,True
+ENT-013,1028,Cobb Salad,Food,Entree,11.94,"Chicken, bacon, egg, avocado, and blue cheese",True,False,False,True,2025-01-01,2025-09-26,False
+ENT-013,1028,Cobb Salad,Food,Entree,14.0,"Chicken, bacon, egg, avocado, and blue cheese",True,False,False,True,2025-09-27,,True
+ENT-014,1029,Turkey Club Sandwich,Food,Entree,13.5,"Turkey, bacon, lettuce, and tomato on toasted bread",True,False,False,False,2025-01-01,,True
+ENT-015,1030,Veggie Burger,Food,Entree,14.5,"Plant-based patty with lettuce, tomato, and fries",True,True,False,False,2025-01-01,,True
+ENT-016,1031,Pork Chop,Food,Entree,22.0,Grilled pork chop with apple chutney and mashed potatoes,True,False,False,True,2025-01-01,,True
+ENT-017,1032,Lobster Roll,Food,Entree,26.0,Chilled lobster salad on a toasted bun with fries,True,False,False,False,2025-01-01,,True
+ENT-018,1033,Chicken Fajitas,Food,Entree,18.5,Grilled chicken and peppers with tortillas and rice,True,False,False,False,2025-01-01,,True
+ENT-019,1034,Beef Tacos,Food,Entree,15.0,"Three tacos with beef, salsa, and cotija cheese",True,False,False,False,2025-01-01,,True
+ENT-020,1035,Eggplant Parmesan,Food,Entree,16.0,Breaded eggplant with marinara and mozzarella,True,True,False,False,2025-01-01,,True
+SID-001,1036,French Fries,Food,Side,5.0,Crispy golden French fries,True,True,True,True,2025-01-01,,True
+SID-002,1037,Sweet Potato Fries,Food,Side,6.0,Crispy sweet potato fries with honey aioli,True,True,False,True,2025-01-01,,True
+SID-003,1038,Side Salad,Food,Side,5.5,Mixed greens with house dressing,True,True,True,True,2025-01-01,,True
+SID-004,1039,Mashed Potatoes,Food,Side,4.76,Creamy mashed potatoes with gravy,True,True,False,True,2025-01-01,2025-03-28,False
+SID-004,1039,Mashed Potatoes,Food,Side,5.5,Creamy mashed potatoes with gravy,True,True,False,True,2025-03-29,,True
+SID-005,1040,Steamed Broccoli,Food,Side,5.0,Steamed broccoli with lemon butter,True,True,False,True,2025-01-01,,True
+SID-006,1041,Mac and Cheese,Food,Side,6.5,Creamy three-cheese macaroni,True,True,False,False,2025-01-01,,True
+SID-007,1042,Coleslaw,Food,Side,4.5,Classic creamy coleslaw,True,True,False,True,2025-01-01,,True
+SID-008,1043,Rice Pilaf,Food,Side,5.0,Seasoned rice pilaf,True,True,True,True,2025-01-01,,True
+SID-009,1044,Onion Rings (side),Food,Side,6.0,Beer-battered onion rings,True,True,True,False,2025-01-01,,True
+SID-010,1045,Grilled Vegetables,Food,Side,6.5,Seasonal grilled vegetable medley,True,True,True,True,2025-01-01,,True
+SID-011,1046,Garlic Bread,Food,Side,5.0,Toasted bread with garlic butter,True,True,False,False,2025-01-01,,True
+SID-012,1047,Baked Beans,Food,Side,4.5,Slow-cooked baked beans,True,True,True,True,2025-01-01,,True
+NAB-001,1048,Fountain Soda,Beverage,Non-Alcoholic,3.28,Choice of Coca-Cola fountain beverages,True,True,True,True,2025-01-01,2025-08-31,False
+NAB-001,1048,Fountain Soda,Beverage,Non-Alcoholic,3.5,Choice of Coca-Cola fountain beverages,True,True,True,True,2025-09-01,,True
+NAB-002,1049,Iced Tea,Beverage,Non-Alcoholic,3.5,Freshly brewed iced tea,True,True,True,True,2025-01-01,,True
+NAB-003,1050,Lemonade,Beverage,Non-Alcoholic,4.0,Fresh-squeezed lemonade,True,True,True,True,2025-01-01,,True
+NAB-004,1051,Coffee,Beverage,Non-Alcoholic,3.75,Freshly brewed regular or decaf coffee,True,True,True,True,2025-01-01,,True
+NAB-005,1052,Hot Tea,Beverage,Non-Alcoholic,3.75,Selection of hot teas,True,True,True,True,2025-01-01,,True
+NAB-006,1053,Sparkling Water,Beverage,Non-Alcoholic,4.5,Bottled sparkling mineral water,True,True,True,True,2025-01-01,,True
+NAB-007,1054,Orange Juice,Beverage,Non-Alcoholic,4.5,Fresh-squeezed orange juice,True,True,True,True,2025-01-01,,True
+NAB-008,1055,Milkshake,Beverage,Non-Alcoholic,5.84,"Hand-spun vanilla, chocolate, or strawberry shake",True,True,False,True,2025-01-01,2025-05-21,False
+NAB-008,1055,Milkshake,Beverage,Non-Alcoholic,6.5,"Hand-spun vanilla, chocolate, or strawberry shake",True,True,False,True,2025-05-22,,True
+NAB-009,1056,Mocktail - Virgin Mojito,Beverage,Non-Alcoholic,6.0,"Lime, mint, and soda, alcohol-free",True,True,True,True,2025-01-01,,True
+NAB-010,1057,Hot Chocolate,Beverage,Non-Alcoholic,4.0,Rich hot chocolate topped with whipped cream,True,True,False,True,2025-01-01,,True
+ALC-001,1058,Draft Beer,Beverage,Alcoholic,7.0,Rotating domestic and craft draft selection,True,True,True,False,2025-01-01,,True
+ALC-002,1059,Bottled Beer,Beverage,Alcoholic,5.84,Selection of domestic and imported bottles,True,True,True,False,2025-01-01,2025-09-03,False
+ALC-002,1059,Bottled Beer,Beverage,Alcoholic,6.5,Selection of domestic and imported bottles,True,True,True,False,2025-09-04,,True
+ALC-003,1060,House Red Wine,Beverage,Alcoholic,9.0,Glass of house Cabernet Sauvignon,True,True,True,True,2025-01-01,,True
+ALC-004,1061,House White Wine,Beverage,Alcoholic,8.5,Glass of house Chardonnay,True,True,True,True,2025-01-01,2025-06-29,False
+ALC-004,1061,House White Wine,Beverage,Alcoholic,9.0,Glass of house Chardonnay,True,True,True,True,2025-06-30,,True
+ALC-005,1062,Classic Margarita,Beverage,Alcoholic,11.0,"Tequila, triple sec, and lime",True,True,True,True,2025-01-01,,True
+ALC-006,1063,Old Fashioned,Beverage,Alcoholic,12.0,"Bourbon, bitters, and orange twist",True,True,True,True,2025-01-01,,True
+ALC-007,1064,Mojito,Beverage,Alcoholic,11.0,"White rum, mint, lime, and soda",True,True,True,True,2025-01-01,,True
+ALC-008,1065,Espresso Martini,Beverage,Alcoholic,13.0,"Vodka, coffee liqueur, and espresso",True,True,True,True,2025-01-01,,True
+ALC-009,1066,Moscow Mule,Beverage,Alcoholic,11.5,"Vodka, ginger beer, and lime",True,True,True,False,2025-01-01,,True
+ALC-010,1067,Sangria,Beverage,Alcoholic,9.5,House red sangria with seasonal fruit,True,True,True,True,2025-01-01,,True
+ALC-011,1068,Prosecco (glass),Beverage,Alcoholic,9.0,Glass of sparkling Prosecco,True,True,True,True,2025-01-01,,True
+ALC-012,1069,Whiskey Sour,Beverage,Alcoholic,10.04,"Whiskey, lemon, and simple syrup",True,True,True,True,2025-01-01,2025-07-19,False
+ALC-012,1069,Whiskey Sour,Beverage,Alcoholic,11.5,"Whiskey, lemon, and simple syrup",True,True,True,True,2025-07-20,,True
