@@ -17,13 +17,6 @@ Reads: master_product_list.csv (must be generated first, via
 Outputs: purchase_order_headers.csv
          purchase_order_lines.csv
 
-NOTE ON PLACEHOLDER DIMENSIONS:
-The Employee and Store Location master files haven't been generated yet
-in this project, so this script uses small embedded placeholder lists
-for "who placed the order" and "which store" so the Purchasing fact
-grain is fully populated. Once dedicated Employee Roster and Store
-Location generator scripts exist, swap these placeholders out for reads
-from those CSVs to keep everything conformed.
 """
 
 import csv
