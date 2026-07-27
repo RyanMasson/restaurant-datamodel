@@ -73,7 +73,7 @@ Table dim_employee {
   expiration_date date
   is_current boolean
 
-  Note: 'SCD Type 2 recommended'
+  Note: 'SCD Type 2 recommended — role/wage changes over time'
 }
 
 Table dim_menu_item {
@@ -177,23 +177,3 @@ Table fact_inventory_valuation {
   Note: 'Business process: Inventory valuation (periodic snapshot fact table)'
 }
 
-// ---------------------------------------------------------
-// FACT TABLE: COST OF GOODS SOLD (COGS) ESTIMATION
-// Grain: one row per COGS estimate per product per monthly valuation
-// ---------------------------------------------------------
-
-Table fact_cogs_estimation {
-  cogs_key int [pk]
-  date_key int [ref: > dim_date.date_key]
-  product_key int [ref: > dim_product.product_key]
-  product_category_key int [ref: > dim_product_category.product_category_key]
-  employee_key int [ref: > dim_employee.employee_key]
-  store_key int [ref: > dim_store_location.store_key]
-
-  beginning_inventory decimal [note: 'semi-additive — snapshot at period start']
-  purchases decimal [note: 'additive — period flow, aggregated from fact_purchasing']
-  ending_inventory decimal [note: 'semi-additive — snapshot at period end']
-  cogs decimal [note: 'additive — period flow: beginning_inventory + purchases - ending_inventory']
-
-  Note: 'Business process: Cost of goods sold estimation'
-}
