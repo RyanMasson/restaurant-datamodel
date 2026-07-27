@@ -1,0 +1,252 @@
+PO Number,Order Date,Vendor,Employee ID,Employee Name,Employee Role,Store ID,Store Name,Buy Method
+PO-00001,2025-01-08,US Foods,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00002,2025-01-09,Performance Foodservice,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00003,2025-01-08,Gordon Food Service,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00004,2025-01-06,Shamrock Foods,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00005,2025-01-08,Southern Wine & Spirits,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00006,2025-01-08,Cheney Brothers,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00007,2025-01-13,Ben E. Keith,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00008,2025-01-16,Chef's Warehouse,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00009,2025-01-16,Shamrock Foods,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00010,2025-01-14,Southern Wine & Spirits,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00011,2025-01-15,Breakthru Beverage,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00012,2025-01-17,Fresh Point,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00013,2025-01-13,US Beverage Supply,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00014,2025-01-21,Performance Foodservice,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00015,2025-01-22,Gordon Food Service,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00016,2025-01-24,Southern Wine & Spirits,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00017,2025-01-23,Republic National Distributing,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00018,2025-01-24,Cheney Brothers,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00019,2025-01-27,Performance Foodservice,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00020,2025-01-30,Chef's Warehouse,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00021,2025-01-30,US Beverage Supply,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00022,2025-02-03,Sysco,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00023,2025-02-05,Ben E. Keith,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00024,2025-02-07,Gordon Food Service,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00025,2025-02-05,Shamrock Foods,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00026,2025-02-06,Republic National Distributing,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00027,2025-02-03,Cheney Brothers,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00028,2025-02-07,US Beverage Supply,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00029,2025-02-12,Sysco,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00030,2025-02-13,Ben E. Keith,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00031,2025-02-14,Chef's Warehouse,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00032,2025-02-12,Southern Wine & Spirits,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00033,2025-02-10,Cheney Brothers,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00034,2025-02-21,Performance Foodservice,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00035,2025-02-18,Restaurant Depot,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00036,2025-02-20,Gordon Food Service,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00037,2025-02-19,Republic National Distributing,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00038,2025-02-18,Cheney Brothers,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00039,2025-02-17,Fresh Point,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00040,2025-02-26,Ben E. Keith,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00041,2025-02-25,Reinhart FoodService,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00042,2025-02-28,Republic National Distributing,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00043,2025-02-27,Cheney Brothers,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00044,2025-03-06,Gordon Food Service,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00045,2025-03-06,Shamrock Foods,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00046,2025-03-07,Reinhart FoodService,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00047,2025-03-03,Republic National Distributing,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00048,2025-03-03,Fresh Point,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00049,2025-03-12,Chef's Warehouse,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00050,2025-03-10,Shamrock Foods,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00051,2025-03-13,Cheney Brothers,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00052,2025-03-12,Fresh Point,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00053,2025-03-13,US Beverage Supply,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00054,2025-03-20,Performance Foodservice,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00055,2025-03-20,Chef's Warehouse,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00056,2025-03-17,Southern Wine & Spirits,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00057,2025-03-18,Republic National Distributing,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00058,2025-03-27,Sysco,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00059,2025-03-25,US Foods,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00060,2025-03-26,Restaurant Depot,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00061,2025-03-28,Gordon Food Service,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00062,2025-03-24,Fresh Point,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00063,2025-04-02,Sysco,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00064,2025-04-04,US Foods,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00065,2025-04-04,Ben E. Keith,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00066,2025-04-04,Reinhart FoodService,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00067,2025-03-31,Southern Wine & Spirits,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00068,2025-04-02,Breakthru Beverage,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00069,2025-04-09,Sysco,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00070,2025-04-07,US Foods,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00071,2025-04-07,Reinhart FoodService,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00072,2025-04-11,Southern Wine & Spirits,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00073,2025-04-18,Reinhart FoodService,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00074,2025-04-14,Breakthru Beverage,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00075,2025-04-14,Republic National Distributing,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00076,2025-04-16,US Beverage Supply,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00077,2025-04-22,Performance Foodservice,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00078,2025-04-21,Restaurant Depot,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00079,2025-04-23,Gordon Food Service,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00080,2025-04-23,Breakthru Beverage,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00081,2025-04-28,US Foods,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00082,2025-04-28,Shamrock Foods,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00083,2025-05-02,Reinhart FoodService,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00084,2025-05-02,Southern Wine & Spirits,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00085,2025-04-29,Breakthru Beverage,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00086,2025-04-30,Cheney Brothers,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00087,2025-04-28,Fresh Point,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00088,2025-05-09,US Foods,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00089,2025-05-06,Shamrock Foods,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00090,2025-05-05,Breakthru Beverage,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00091,2025-05-09,Republic National Distributing,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00092,2025-05-08,US Beverage Supply,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00093,2025-05-15,Ben E. Keith,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00094,2025-05-16,Breakthru Beverage,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00095,2025-05-13,Republic National Distributing,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00096,2025-05-13,Cheney Brothers,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00097,2025-05-21,Performance Foodservice,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00098,2025-05-19,Ben E. Keith,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00099,2025-05-21,Chef's Warehouse,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00100,2025-05-21,Gordon Food Service,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00101,2025-05-19,Republic National Distributing,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00102,2025-05-21,US Beverage Supply,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00103,2025-05-29,US Foods,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00104,2025-05-28,Performance Foodservice,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00105,2025-05-28,Ben E. Keith,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00106,2025-05-30,Chef's Warehouse,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00107,2025-05-28,Breakthru Beverage,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00108,2025-05-27,Cheney Brothers,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00109,2025-06-05,Restaurant Depot,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00110,2025-06-06,Chef's Warehouse,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00111,2025-06-03,Cheney Brothers,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00112,2025-06-11,Restaurant Depot,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00113,2025-06-09,Shamrock Foods,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00114,2025-06-18,Sysco,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00115,2025-06-19,US Foods,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00116,2025-06-16,Cheney Brothers,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00117,2025-06-17,Fresh Point,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00118,2025-06-25,Performance Foodservice,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00119,2025-06-23,Restaurant Depot,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00120,2025-06-25,Chef's Warehouse,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00121,2025-06-26,US Beverage Supply,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00122,2025-07-04,Sysco,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00123,2025-06-30,Restaurant Depot,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00124,2025-07-04,Reinhart FoodService,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00125,2025-07-03,Republic National Distributing,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00126,2025-06-30,Fresh Point,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00127,2025-07-07,Performance Foodservice,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00128,2025-07-09,Ben E. Keith,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00129,2025-07-09,Restaurant Depot,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00130,2025-07-09,Chef's Warehouse,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00131,2025-07-07,Fresh Point,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00132,2025-07-17,Sysco,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00133,2025-07-18,Performance Foodservice,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00134,2025-07-14,Shamrock Foods,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00135,2025-07-18,Reinhart FoodService,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00136,2025-07-16,Southern Wine & Spirits,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00137,2025-07-15,Cheney Brothers,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00138,2025-07-22,Performance Foodservice,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00139,2025-07-21,Ben E. Keith,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00140,2025-07-24,Shamrock Foods,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00141,2025-07-25,Breakthru Beverage,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00142,2025-07-22,Cheney Brothers,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00143,2025-07-25,US Beverage Supply,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00144,2025-07-30,Sysco,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00145,2025-07-29,US Foods,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00146,2025-07-29,Reinhart FoodService,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00147,2025-08-01,Cheney Brothers,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00148,2025-08-01,US Beverage Supply,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00149,2025-08-08,Sysco,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00150,2025-08-07,Performance Foodservice,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00151,2025-08-05,Restaurant Depot,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00152,2025-08-08,Shamrock Foods,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00153,2025-08-06,Republic National Distributing,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00154,2025-08-14,Sysco,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00155,2025-08-12,US Foods,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00156,2025-08-12,Southern Wine & Spirits,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00157,2025-08-19,Southern Wine & Spirits,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00158,2025-08-27,Ben E. Keith,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00159,2025-08-25,Gordon Food Service,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00160,2025-08-29,Shamrock Foods,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00161,2025-08-28,Breakthru Beverage,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00162,2025-08-25,Cheney Brothers,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00163,2025-09-02,Sysco,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00164,2025-09-04,Ben E. Keith,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00165,2025-09-02,Reinhart FoodService,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00166,2025-09-05,Fresh Point,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00167,2025-09-12,Sysco,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00168,2025-09-11,US Foods,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00169,2025-09-09,Ben E. Keith,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00170,2025-09-09,Restaurant Depot,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00171,2025-09-10,Gordon Food Service,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00172,2025-09-11,Shamrock Foods,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00173,2025-09-09,Southern Wine & Spirits,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00174,2025-09-10,Cheney Brothers,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00175,2025-09-08,US Beverage Supply,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00176,2025-09-18,Sysco,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00177,2025-09-16,Restaurant Depot,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00178,2025-09-17,Shamrock Foods,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00179,2025-09-16,Breakthru Beverage,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00180,2025-09-22,Performance Foodservice,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00181,2025-09-26,Restaurant Depot,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00182,2025-09-25,Gordon Food Service,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00183,2025-09-26,Southern Wine & Spirits,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00184,2025-09-25,Fresh Point,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00185,2025-09-30,Sysco,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00186,2025-10-03,Ben E. Keith,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00187,2025-09-30,Reinhart FoodService,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00188,2025-09-29,US Beverage Supply,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00189,2025-10-06,Performance Foodservice,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00190,2025-10-08,Restaurant Depot,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00191,2025-10-07,Breakthru Beverage,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00192,2025-10-10,Republic National Distributing,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00193,2025-10-09,US Beverage Supply,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00194,2025-10-17,Chef's Warehouse,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00195,2025-10-14,Shamrock Foods,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00196,2025-10-17,Republic National Distributing,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00197,2025-10-16,US Beverage Supply,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00198,2025-10-20,US Foods,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00199,2025-10-23,Gordon Food Service,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00200,2025-10-20,Breakthru Beverage,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00201,2025-10-23,Republic National Distributing,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00202,2025-10-20,US Beverage Supply,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00203,2025-10-30,Reinhart FoodService,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00204,2025-10-31,Southern Wine & Spirits,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00205,2025-10-27,Republic National Distributing,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00206,2025-10-31,Fresh Point,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Vendor App
+PO-00207,2025-11-03,Sysco,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00208,2025-11-03,Ben E. Keith,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00209,2025-11-03,Shamrock Foods,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00210,2025-11-04,Southern Wine & Spirits,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00211,2025-11-06,Fresh Point,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00212,2025-11-05,US Beverage Supply,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00213,2025-11-10,Performance Foodservice,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00214,2025-11-12,Restaurant Depot,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00215,2025-11-13,Gordon Food Service,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00216,2025-11-11,Breakthru Beverage,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00217,2025-11-11,Cheney Brothers,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Vendor App
+PO-00218,2025-11-12,US Beverage Supply,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00219,2025-11-19,US Foods,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00220,2025-11-20,Restaurant Depot,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00221,2025-11-18,Chef's Warehouse,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Website
+PO-00222,2025-11-20,Southern Wine & Spirits,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Website
+PO-00223,2025-11-21,Republic National Distributing,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00224,2025-11-26,Sysco,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00225,2025-11-26,Ben E. Keith,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00226,2025-11-25,Restaurant Depot,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00227,2025-11-27,Gordon Food Service,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00228,2025-11-27,Republic National Distributing,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Text Message
+PO-00229,2025-11-26,Cheney Brothers,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00230,2025-11-24,Fresh Point,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00231,2025-12-04,Sysco,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00232,2025-12-05,Ben E. Keith,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00233,2025-12-01,Restaurant Depot,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00234,2025-12-03,Cheney Brothers,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Website
+PO-00235,2025-12-01,Fresh Point,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00236,2025-12-12,Sysco,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00237,2025-12-09,Ben E. Keith,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Vendor App
+PO-00238,2025-12-11,Chef's Warehouse,EMP-002,Marcus Lee,Kitchen Manager,STORE-01,Main Street Location,Text Message
+PO-00239,2025-12-11,Southern Wine & Spirits,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00240,2025-12-10,Breakthru Beverage,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00241,2025-12-09,US Beverage Supply,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Website
+PO-00242,2025-12-19,US Foods,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00243,2025-12-17,Performance Foodservice,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Text Message
+PO-00244,2025-12-16,Ben E. Keith,EMP-001,Dana Ruiz,General Manager,STORE-01,Main Street Location,Vendor App
+PO-00245,2025-12-15,Gordon Food Service,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00246,2025-12-19,Shamrock Foods,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Website
+PO-00247,2025-12-19,Breakthru Beverage,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00248,2025-12-15,Cheney Brothers,EMP-005,Sam Whitfield,Assistant Manager,STORE-01,Main Street Location,Vendor App
+PO-00249,2025-12-19,Fresh Point,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message
+PO-00250,2025-12-24,Performance Foodservice,EMP-004,Jordan Blake,Bar Manager,STORE-01,Main Street Location,Text Message
+PO-00251,2025-12-22,Cheney Brothers,EMP-003,Priya Nair,Sous Chef,STORE-01,Main Street Location,Text Message

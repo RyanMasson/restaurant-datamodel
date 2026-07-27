@@ -1,6 +1,9 @@
 """
 generate_vendor_purchase_orders.py
 
+Author: Ryan Masson
+Part of: Restaurant Data Model project
+
 Generates mock "vendor purchase order" source data, mimicking what a
 restaurant's ordering system (app / text / website-based vendor ordering)
 would produce. Mirrors the real-world pattern of normalized source
