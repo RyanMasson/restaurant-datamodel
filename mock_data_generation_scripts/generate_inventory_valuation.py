@@ -1,6 +1,9 @@
 """
 generate_inventory_valuation.py
 
+Author: Ryan Masson
+Part of: Restaurant Data Model project
+
 Generates mock "Inventory Valuation" source data, structured after the
 inventory valuation sheet format in Food and Beverage Cost Control,
 7th Edition (Wiley), p.121. Produces a header file (one row per monthly

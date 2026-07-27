@@ -1,0 +1,13 @@
+Valuation ID,Inventory Date,Store ID,Store Name,Counted By,Extended By
+INV-2025-01,2025-01-31,STORE-01,Main Street Location,Dana Ruiz,Sam Whitfield
+INV-2025-02,2025-02-28,STORE-01,Main Street Location,Dana Ruiz,Marcus Lee
+INV-2025-03,2025-03-31,STORE-01,Main Street Location,Jordan Blake,Priya Nair
+INV-2025-04,2025-04-30,STORE-01,Main Street Location,Dana Ruiz,Priya Nair
+INV-2025-05,2025-05-31,STORE-01,Main Street Location,Priya Nair,Sam Whitfield
+INV-2025-06,2025-06-30,STORE-01,Main Street Location,Jordan Blake,Sam Whitfield
+INV-2025-07,2025-07-31,STORE-01,Main Street Location,Marcus Lee,Priya Nair
+INV-2025-08,2025-08-31,STORE-01,Main Street Location,Dana Ruiz,Sam Whitfield
+INV-2025-09,2025-09-30,STORE-01,Main Street Location,Marcus Lee,Jordan Blake
+INV-2025-10,2025-10-31,STORE-01,Main Street Location,Marcus Lee,Priya Nair
+INV-2025-11,2025-11-30,STORE-01,Main Street Location,Dana Ruiz,Priya Nair
+INV-2025-12,2025-12-31,STORE-01,Main Street Location,Sam Whitfield,Dana Ruiz
