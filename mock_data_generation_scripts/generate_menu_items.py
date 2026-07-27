@@ -4,23 +4,14 @@ generate_menu_items.py
 Author: Ryan Masson
 Part of: Restaurant Data Model project
 
-Generates a mock "Menu Item Master" CSV — the reference/master data
-that would back the Menu item dimension in the star schema. Mirrors
-generate_master_product_list.py in style: hand-curated realistic items
-per subcategory rather than randomly generated names.
+Generates a mock "Menu Item Master" export — mimicking a periodic full
+export from a restaurant's menu/POS management system, NOT a
+pre-built SCD Type 2 dimension table. 
 
-Output: menu_items.csv
-Columns: Business Key, POS Code, Menu Item Name, Category, Subcategory,
-         Price, Description, Is Active, Is Vegetarian, Is Vegan,
-         Is Gluten Free, Effective Date, Expiration Date, Is Current
-
-SCD TYPE 2 NOTE:
-Menu item is modeled as an SCD Type 2 dimension, since menu prices
-change over time. Most items get a single "current" row spanning the
-whole year. A subset of items (~20%) simulate one price increase during
-the year, producing two rows for that item: an expired row with the
-old price and a current row with the new price — mirroring the
-Pumpkin Spice Latte example discussed earlier in this project.
+Output: menu_item_snapshots.csv
+Columns: Extract Date, Business Key, POS Code, Menu Item Name, Category,
+         Subcategory, Price, Description, Is Active, Is Vegetarian,
+         Is Vegan, Is Gluten Free
 
 DIETARY FLAG NOTE:
 Is Vegetarian / Is Vegan / Is Gluten Free are inferred from keyword
@@ -31,11 +22,19 @@ edge cases (e.g. a "gluten-free bun" substitution) won't be caught.
 
 import csv
 import random
-from datetime import date, timedelta
+from datetime import date
 
 random.seed(42)  # reproducible output
 
-MENU_LAUNCH_DATE = date(2025, 1, 1)
+# ---------------------------------------------------------------------
+# Monthly extract dates — simulating a menu system export pulled on
+# the first of each month throughout 2025
+# ---------------------------------------------------------------------
+EXTRACT_DATES = [
+    date(2025, 1, 1), date(2025, 2, 1), date(2025, 3, 1), date(2025, 4, 1),
+    date(2025, 5, 1), date(2025, 6, 1), date(2025, 7, 1), date(2025, 8, 1),
+    date(2025, 9, 1), date(2025, 10, 1), date(2025, 11, 1), date(2025, 12, 1),
+]
 
 # ---------------------------------------------------------------------
 # Subcategory -> Category mapping
@@ -181,70 +180,62 @@ def generate_rows():
 
         for i, (name, price, description) in enumerate(items, start=1):
             business_key = f"{prefix}-{i:03d}"
-            is_active = random.random() > 0.05  # ~95% of items currently active
             is_vegetarian, is_vegan, is_gluten_free = infer_dietary_flags(name, description)
-
-            common_fields = {
-                "Business Key": business_key,
-                "POS Code": pos_code,
-                "Menu Item Name": name,
-                "Category": category,
-                "Subcategory": subcategory,
-                "Description": description,
-                "Is Active": is_active,
-                "Is Vegetarian": is_vegetarian,
-                "Is Vegan": is_vegan,
-                "Is Gluten Free": is_gluten_free,
-            }
+            item_pos_code = pos_code
             pos_code += 1
 
-            has_price_change = random.random() < 0.20  # ~20% of items had one price change this year
+            # Simulate a mid-year price increase for ~20% of items
+            has_price_change = random.random() < 0.20
+            change_month_index = random.randint(2, 9) if has_price_change else None  # March-Oct
+            old_price = round(price * random.uniform(0.85, 0.95), 2) if has_price_change else None
 
-            if has_price_change:
-                change_date = MENU_LAUNCH_DATE + timedelta(
-                    days=random.randint(59, 304)  # sometime between early March and late October
-                )
-                old_price = round(price * random.uniform(0.85, 0.95), 2)
+            # Simulate discontinuation partway through the year for ~5% of items
+            gets_discontinued = random.random() < 0.05
+            discontinue_month_index = random.randint(4, 10) if gets_discontinued else None  # May-Nov
+
+            for month_index, extract_date in enumerate(EXTRACT_DATES):
+                if has_price_change and month_index < change_month_index:
+                    current_price = old_price
+                else:
+                    current_price = price
+
+                if gets_discontinued and month_index >= discontinue_month_index:
+                    is_active = False
+                else:
+                    is_active = True
 
                 rows.append({
-                    **common_fields,
-                    "Price": old_price,
-                    "Effective Date": MENU_LAUNCH_DATE.isoformat(),
-                    "Expiration Date": (change_date - timedelta(days=1)).isoformat(),
-                    "Is Current": False,
-                })
-                rows.append({
-                    **common_fields,
-                    "Price": price,
-                    "Effective Date": change_date.isoformat(),
-                    "Expiration Date": "",
-                    "Is Current": True,
-                })
-            else:
-                rows.append({
-                    **common_fields,
-                    "Price": price,
-                    "Effective Date": MENU_LAUNCH_DATE.isoformat(),
-                    "Expiration Date": "",
-                    "Is Current": True,
+                    "Extract Date": extract_date.isoformat(),
+                    "Business Key": business_key,
+                    "POS Code": item_pos_code,
+                    "Menu Item Name": name,
+                    "Category": category,
+                    "Subcategory": subcategory,
+                    "Price": current_price,
+                    "Description": description,
+                    "Is Active": is_active,
+                    "Is Vegetarian": is_vegetarian,
+                    "Is Vegan": is_vegan,
+                    "Is Gluten Free": is_gluten_free,
                 })
 
     return rows
 
 
-def main(output_path="menu_items.csv"):
+def main(output_path="menu_item_snapshots.csv"):
     rows = generate_rows()
     fieldnames = [
-        "Business Key", "POS Code", "Menu Item Name", "Category", "Subcategory",
-        "Price", "Description", "Is Active", "Is Vegetarian", "Is Vegan",
-        "Is Gluten Free", "Effective Date", "Expiration Date", "Is Current",
+        "Extract Date", "Business Key", "POS Code", "Menu Item Name",
+        "Category", "Subcategory", "Price", "Description", "Is Active",
+        "Is Vegetarian", "Is Vegan", "Is Gluten Free",
     ]
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"Generated {len(rows)} menu item rows across {len(MENU_ITEMS)} subcategories -> {output_path}")
+    num_items = sum(len(items) for items in MENU_ITEMS.values())
+    print(f"Generated {len(rows)} rows ({num_items} items x {len(EXTRACT_DATES)} monthly extracts) -> {output_path}")
 
 
 if __name__ == "__main__":
