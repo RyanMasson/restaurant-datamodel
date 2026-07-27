@@ -73,7 +73,7 @@ Table dim_employee {
   expiration_date date
   is_current boolean
 
-  Note: 'SCD Type 2 recommended — role/wage changes over time'
+  Note: 'SCD Type 2 recommended'
 }
 
 Table dim_menu_item {
