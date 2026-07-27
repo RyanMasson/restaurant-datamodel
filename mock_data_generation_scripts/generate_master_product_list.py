@@ -31,12 +31,9 @@ VENDORS = [
 ]
 
 # ---------------------------------------------------------------------
-# Buy methods by rough product type
+# Buy methods — how the order is placed with the vendor
 # ---------------------------------------------------------------------
-BUY_METHODS_DRY = ["Case", "Each", "Bag", "Box"]
-BUY_METHODS_LIQUID = ["Case", "Gallon", "Bottle", "Keg", "Jug"]
-BUY_METHODS_PRODUCE_MEAT = ["Case", "Lb", "Each", "Box"]
-BUY_METHODS_SUPPLIES = ["Case", "Box", "Roll", "Each", "Pack"]
+BUY_METHODS = ["Vendor App", "Text Message", "Website"]
 
 # ---------------------------------------------------------------------
 # Product definitions per category.
@@ -271,16 +268,6 @@ PRODUCTS = {
     ],
 }
 
-BUY_METHOD_BY_CATEGORY = {
-    "Non-Alcoholic Beverage": BUY_METHODS_LIQUID,
-    "Alcoholic Beverage": BUY_METHODS_LIQUID,
-    "Dry Goods & Spices": BUY_METHODS_DRY,
-    "Frozen/Refrigerated Goods": BUY_METHODS_DRY,
-    "Liquids/Pastes/Sauces": BUY_METHODS_LIQUID,
-    "Produce & Meat": BUY_METHODS_PRODUCE_MEAT,
-    "Supplies": BUY_METHODS_SUPPLIES,
-}
-
 CATEGORY_PREFIX = {
     "Non-Alcoholic Beverage": "NAB",
     "Alcoholic Beverage": "ALC",
@@ -296,10 +283,11 @@ def generate_rows():
     rows = []
     for category, items in PRODUCTS.items():
         prefix = CATEGORY_PREFIX[category]
-        for i, (subcat, name, uom, price_range, buy_method, desc) in enumerate(items, start=1):
+        for i, (subcat, name, uom, price_range, _pack_method, desc) in enumerate(items, start=1):
             primary_key = f"{prefix}-{i:03d}"
             wholesale_price = round(random.uniform(*price_range), 2)
             primary_vendor, secondary_vendor = random.sample(VENDORS, 2)
+            buy_method = random.choice(BUY_METHODS)
 
             rows.append({
                 "Category": category,
