@@ -206,10 +206,13 @@ ON_ERROR = 'ABORT_STATEMENT';
 
 -- Setting permissions for the dbt connection to Snowflake (Partner Connect)
 
--- 1. Switch to administrator role
+-- Switch to administrator role
 USE ROLE ACCOUNTADMIN;
 
--- 2. Grant privileges on the RAW database (Read-only access for sources)
+-- Grant privileges to the transforming warehouse
+GRANT USAGE, OPERATE ON WAREHOUSE transforming TO ROLE PC_DBT_ROLE;
+
+-- Grant privileges on the RAW database (Read-only access for sources)
 GRANT USAGE ON DATABASE RAW TO ROLE PC_DBT_ROLE;
 GRANT USAGE ON ALL SCHEMAS IN DATABASE RAW TO ROLE PC_DBT_ROLE;
 GRANT USAGE ON FUTURE SCHEMAS IN DATABASE RAW TO ROLE PC_DBT_ROLE;
@@ -218,7 +221,8 @@ GRANT SELECT ON FUTURE TABLES IN DATABASE RAW TO ROLE PC_DBT_ROLE;
 GRANT SELECT ON ALL VIEWS IN DATABASE RAW TO ROLE PC_DBT_ROLE;
 GRANT SELECT ON FUTURE VIEWS IN DATABASE RAW TO ROLE PC_DBT_ROLE;
 
--- 3. Grant privileges on the ANALYTICS database (Full build access for dbt models)
+-- Grant privileges on the ANALYTICS database (Full build access for dbt models)
 GRANT USAGE, CREATE SCHEMA ON DATABASE ANALYTICS TO ROLE PC_DBT_ROLE;
 GRANT ALL PRIVILEGES ON ALL SCHEMAS IN DATABASE ANALYTICS TO ROLE PC_DBT_ROLE;
 GRANT ALL PRIVILEGES ON FUTURE SCHEMAS IN DATABASE ANALYTICS TO ROLE PC_DBT_ROLE;
+
