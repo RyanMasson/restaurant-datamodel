@@ -1,0 +1,83 @@
+version: 2
+
+sources:
+  - name: operations      # the name of the source in dbt space
+    database: raw     # the snowflake space database name
+    schema: restaurant     # the snowflake space database schema
+    description: >
+      Raw operational source data for the restaurant cost data model,
+      mimicking exports from the POS, vendor ordering, and inventory
+      systems. These tables intentionally mirror the source systems,
+      not the dimensional model — natural keys, raw timestamps, and
+      header/line splits are preserved here and resolved in staging.
+    tables:    # the tables that models will have access to when calling select * from {{ source('operations', 'tablename') }}
+      - name: master_product_list
+        description: One row per product. Source for dim_product and dim_product_category.
+        columns:
+          - name: primary_key
+            description: Natural/business key for the product, e.g. NAB-001.
+            data_tests:
+              - unique
+              - not_null
+
+      - name: menu_item_snapshots
+        description: >
+          Monthly point-in-time export of the menu (one row per item per
+          monthly extract). Feeds the dbt snapshot that builds
+          dim_menu_item as an SCD Type 2 dimension.
+        columns:
+          - name: business_key
+            description: Natural/business key for the menu item, e.g. APP-001.
+            data_tests:
+              - not_null
+
+      - name: purchase_order_headers
+        description: One row per purchase order made to a vendor.
+        columns:
+          - name: po_number
+            description: Degenerate dimension; natural key for the purchase order.
+            data_tests:
+              - unique
+              - not_null
+
+      - name: purchase_order_lines
+        description: One row per line item per purchase order (Purchasing grain).
+        columns:
+          - name: po_number
+            description: Joins to purchase_order_headers.po_number.
+            data_tests:
+              - not_null
+
+      - name: inventory_valuation_headers
+        description: One row per monthly inventory valuation.
+        columns:
+          - name: valuation_id
+            description: Natural key for the monthly valuation.
+            data_tests:
+              - unique
+              - not_null
+
+      - name: inventory_valuation_lines
+        description: One row per product per monthly inventory valuation (Inventory valuation grain).
+        columns:
+          - name: valuation_id
+            description: Joins to inventory_valuation_headers.valuation_id.
+            data_tests:
+              - not_null
+
+      - name: sales_order_headers
+        description: One row per POS order ticket.
+        columns:
+          - name: order_ticket_number
+            description: Degenerate dimension; natural key for the order ticket.
+            data_tests:
+              - unique
+              - not_null
+
+      - name: sales_order_lines
+        description: One row per menu item per order ticket (Sales grain).
+        columns:
+          - name: order_ticket_number
+            description: Joins to sales_order_headers.order_ticket_number.
+            data_tests:
+              - not_null

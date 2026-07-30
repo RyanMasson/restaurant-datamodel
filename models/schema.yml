@@ -1,0 +1,245 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: >
+      Grain: one row per menu item per order ticket. All facts here
+      are additive except unit_price, which is a rate and should be
+      averaged, not summed.
+    columns:
+      - name: sales_key
+        description: Surrogate key, generated from order_ticket_number + line_number.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: order_ticket_number
+        description: Degenerate dimension — the POS order ticket number.
+        data_tests:
+          - not_null
+
+      - name: date_key
+        description: Foreign key to dim_date.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+
+      - name: time_key
+        description: Foreign key to dim_time_of_day (hourly grain).
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_time_of_day')
+                field: time_key
+
+      - name: employee_key
+        description: Foreign key to dim_employee.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_employee')
+                field: employee_key
+
+      - name: menu_item_key
+        description: Foreign key to dim_menu_item.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_menu_item')
+                field: menu_item_key
+
+      - name: channel_key
+        description: Foreign key to dim_order_channel.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_order_channel')
+                field: channel_key
+
+      - name: store_key
+        description: Foreign key to dim_store_location.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_store_location')
+                field: store_key
+
+      - name: quantity_sold
+        description: Additive fact.
+      - name: unit_price
+        description: Non-additive fact — a rate, not a summable amount.
+      - name: extended_price
+        description: Additive fact.
+      - name: discount_amount
+        description: Additive fact.
+      - name: net_sales_amount
+        description: Additive fact.
+
+  - name: fact_purchasing
+    description: >
+      Grain: one row per line item per purchase order made to a
+      vendor. All facts here are additive except unit_price, which is
+      a rate and should be averaged, not summed. No time_key exists
+      for this process — the mock source data only has an order date,
+      not a timestamp, so there's no time-of-day to resolve.
+    columns:
+      - name: purchasing_key
+        description: Surrogate key, generated from po_number + line_number.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: po_number
+        description: Degenerate dimension — the purchase order number.
+        data_tests:
+          - not_null
+
+      - name: date_key
+        description: Foreign key to dim_date.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+
+      - name: vendor_key
+        description: Foreign key to dim_vendor.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_vendor')
+                field: vendor_key
+
+      - name: product_key
+        description: Foreign key to dim_product.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product')
+                field: product_key
+
+      - name: product_category_key
+        description: Foreign key to dim_product_category.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product_category')
+                field: product_category_key
+
+      - name: employee_key
+        description: Foreign key to dim_employee.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_employee')
+                field: employee_key
+
+      - name: store_key
+        description: Foreign key to dim_store_location.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_store_location')
+                field: store_key
+
+      - name: quantity_ordered
+        description: Additive fact.
+      - name: unit_price
+        description: Non-additive fact — a rate, not a summable amount.
+      - name: extended_price
+        description: Additive fact.
+      - name: discount_amount
+        description: Additive fact.
+      - name: net_purchase_amount
+        description: Additive fact.
+
+  - name: fact_inventory_valuation
+    description: >
+      Grain: one row per product per monthly inventory valuation.
+      item_amount and inventory_value are semi-additive (summable
+      across products/stores at a point in time, not across time
+      periods). item_unit_value is non-additive. Counted By/Extended
+      By employee keys are resolved by name match rather than ID —
+      a known limitation of the mock source data.
+    columns:
+      - name: inventory_valuation_key
+        description: Surrogate key, generated from valuation_id + product_business_key.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: valuation_id
+        description: Degenerate dimension — the monthly valuation identifier.
+        data_tests:
+          - not_null
+
+      - name: date_key
+        description: Foreign key to dim_date.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+
+      - name: product_key
+        description: Foreign key to dim_product.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product')
+                field: product_key
+
+      - name: product_category_key
+        description: Foreign key to dim_product_category.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_product_category')
+                field: product_category_key
+
+      - name: counted_by_employee_key
+        description: >
+          Foreign key to dim_employee, resolved by matching employee_name
+          (no employee_id available for this field in the source data).
+        data_tests:
+          - not_null
+
+      - name: extended_by_employee_key
+        description: >
+          Foreign key to dim_employee, resolved by matching employee_name
+          (no employee_id available for this field in the source data).
+        data_tests:
+          - not_null
+
+      - name: store_key
+        description: Foreign key to dim_store_location.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_store_location')
+                field: store_key
+
+      - name: item_amount
+        description: Semi-additive fact — snapshot quantity on hand.
+      - name: item_unit_value
+        description: Non-additive fact.
+      - name: inventory_value
+        description: Semi-additive fact — snapshot extended value (item_amount x item_unit_value).
