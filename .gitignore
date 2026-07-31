@@ -1,3 +1,6 @@
+# the Pages doc I used to draft the post
+portfolio_post_text_draft.pages
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -170,7 +173,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 .dmypy.json
-dmypy.json
+dypy.json
 
 # Pyre type checker
 .pyre/
