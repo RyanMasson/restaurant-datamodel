@@ -5,9 +5,9 @@ This is the codebase for my portfolio project "Building a Dimensional Data Model
 This repository contains five parts:
 
 - A dimensional model schema rendered on dbdiagram.io using DBML code
-- The generation of mock operational data from a restaurant business
+- The generation of mock operational data to simulate realistic data from a restaurant business
 - The setup of a Snowflake environment with the mock data loaded into a data warehouse called "raw"
-- The building of the dimensional model in a different warehouse called "analytics" using dbt
+- The building of the dimensional model in a different warehouse called "analytics" using dbt, resulting in nine dimension tables and three fact tables
 - A SQL file monthly_cogs_query.sql to demonstrate a business use case of querying the analytics warehouse
 
 Acknowledgment: I used Claude (Sonnet 5) in developing the scripts used in this project. 
