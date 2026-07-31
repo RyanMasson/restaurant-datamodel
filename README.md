@@ -1,6 +1,6 @@
 # restaurant-datamodel
 
-This is the codebase for my portfolio project Building a Dimensional Data Model with Snowflake and dbt for Restaurant Cost Control, which can be found on my website https://ryanmasson.carrd.co/
+This is the codebase for my portfolio project "Building a Dimensional Data Model with Snowflake and dbt for Restaurant Cost Control", which can be found on my website https://ryanmasson.carrd.co/
 
 This repository contains four parts:
 
