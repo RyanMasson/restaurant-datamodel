@@ -2,7 +2,7 @@
 
 This is the codebase for my portfolio project "Building a Dimensional Data Model with Snowflake and dbt for Restaurant Cost Control", which can be found on my website https://ryanmasson.carrd.co/
 
-This repository contains four parts:
+This repository contains five parts:
 
 - A dimensional model schema rendered on dbdiagram.io using DBML code
 - The generation of mock operational data from a restaurant business
